@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Berber Ahmet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Berber Ahmet</h1>
+    <nav>
+      <a href="#lokasyon">Lokasyon</a>
+      <a href="#saatler">Çalışma Saatleri</a>
+      <a href="#randevu">Randevu Al</a>
+    </nav>
+  </header>
+
+  <section id="lokasyon">
+    <h2>Lokasyon</h2>
+    <p>Adres: Atatürk Cad. No: 12, Kadıköy, İstanbul</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="250" style="border:0;" allowfullscreen=""></iframe>
+  </section>
+
+  <section id="saatler">
+    <h2>Çalışma Saatleri</h2>
+    <ul>
+      <li>Pazartesi - Cumartesi: 09:00 - 20:00</li>
+      <li>Pazar: Kapalı</li>
+    </ul>
+  </section>
+
+  <section id="randevu">
+    <h2>Randevu Al</h2>
+    <form id="randevuForm">
+      <input type="text" name="name" placeholder="Adınız" required />
+      <input type="tel" name="phone" placeholder="Telefon" required />
+      <input type="date" name="date" required />
+      <input type="time" name="time" required />
+      <button type="submit">Gönder</button>
+    </form>
+
+    <h3>Mevcut Randevular</h3>
+    <ul id="randevuListesi"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
