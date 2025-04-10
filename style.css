@@ -21,8 +21,9 @@ header {
 }
 
 .logo {
-  height: 60px;
-
+  max-width: 150px;
+  height: auto;
+}
 nav a {
   color: #f1f1f1;
   margin: 0 1rem;
