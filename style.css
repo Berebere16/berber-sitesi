@@ -69,3 +69,20 @@ form button:hover {
     margin: 0.5rem 0;
   }
 }
+
+.logo {
+  height: 60px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  margin: 0.5rem 0;
+}
+header img + h1 {
+  display: inline-block;
+}
