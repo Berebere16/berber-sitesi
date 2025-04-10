@@ -21,8 +21,9 @@ header {
 }
 
 .logo {
-  max-width: 150px;
-  height: auto;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
 }
 nav a {
   color: #f1f1f1;
